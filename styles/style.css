@@ -71,6 +71,68 @@ header p {
   margin-top: 5px;
   margin-bottom: 3px;
 }
+/* ------------ field and input ------------ */
+form {
+  border-left: 1px solid #fff;
+  padding: 0px 8px 0px 16px;
+}
+.text {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+input[type=text] {
+   color: #a9a9a9;
+   padding: 8px 12px;
+}
+.text:focus {
+  border: 1px solid #7ed4d1;
+}
+#first_name {
+  width:49%;
+  float: left;
+  display:inline;
+}
+#last_name {
+  display: inline;
+  width:49%;
+  float:right;
+}
+#submit {
+  background-color: #eb9000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  padding: 8px 44px;
+}
+#submit:hover {
+  background-color: #8C5600;
+}
+/* ------------ responsive form ------------ */
+  @media (min-width: 375px) and (max-width: 1199px) {
+    form {
+      border: none;
+      padding: none;
+    }
+    #banner-legend h1,
+    #banner-legend p {
+      padding: 0px 14px;
+    }
+    #first_name {
+      width:100%;
+      display:block;
+    }
+    #last_name {
+      width: 100%;
+      display: block;
+    }
+  }
 /* ------------ slider ------------- */
 #slider {
   background-color: #e5e5e5;
@@ -80,6 +142,25 @@ header p {
 #slider-inner {
   margin: 0px 200px;
 }
+#slider-inner h1{
+  margin-top: 0px;
+}
+/* ---------------- header margin ----------------- */
+  @media (max-width: 767px) {
+    #slider-inner h1 {
+      margin-top: 20px !important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #slider-inner h1 {
+      margin: 25px !important;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #slider-inner h1 {
+      margin: 0px !important;
+    }
+  }
 /* ------------ icons ------------- */
 #icons {
   padding: 48px 0px;
