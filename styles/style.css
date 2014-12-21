@@ -58,7 +58,7 @@ header p {
       margin: 0px 200px 0px 0px !important;
     }
   }
-  /* ----------------- / responsive form ------------------ */
+/* ----------------- / responsive form ------------------ */
 #banner-legend h1 {
   color: #fff;
 }
@@ -68,6 +68,8 @@ header p {
 #download-box p{
   color: #fff;
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 3px;
 }
 /* ------------ slider ------------- */
 #slider {
@@ -92,6 +94,8 @@ header p {
   width: 54px;
   height: 54px;
   border-radius: 27px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
   padding: 12px 13px 12px 11px;
   background-color: #426d72;
 }
