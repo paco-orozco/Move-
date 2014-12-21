@@ -35,15 +35,55 @@ header p {
   -o-background-size: cover;
   background-size: cover;
   padding: 48px 0px;
-  margin: 0px -80px;
+  margin: 0px -200px;
 }
 #banner-legend {
-  margin: 0px 80px;
+  margin: 0px 200px 0px 0px;
   background-color: rgba(0,0,0,.50);
   padding: 24px 22px;
 }
+  /* ---------------- responsive form ----------------- */
+  @media (max-width: 767px) {
+    #banner-legend {
+      margin: 0px 200px !important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #banner-legend {
+      margin: 0px 200px !important;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #banner-legend {
+      margin: 0px 200px 0px 0px !important;
+    }
+  }
+  /* ----------------- / responsive form ------------------ */
 #banner-legend h1 {
   color: #fff;
+}
+#banner-legend p {
+  color: #7ed4d1;
+}
+#download-box p{
+  color: #fff;
+  text-align: center;
+}
+/* ------------ slider ------------- */
+#slider {
+  background-color: #f6f6f6;
+  padding: 48px 0;
+  margin: 0px -200px;
+}
+#slider-inner {
+  margin: 0px 200px;
+}
+/* ------------ icons ------------- */
+#icons {
+  padding: 48px 0px;
+}
+#icons h2 {
+  text-align: center;
 }
 /* ------------ footer ------------- */
 footer {
