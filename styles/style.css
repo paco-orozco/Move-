@@ -179,10 +179,10 @@ input[type=text] {
 #slider {
   background-color: #e5e5e5;
   padding: 48px 0;
-  margin: 0px -200px;
+  margin: 0px -500px;
 }
 #slider-inner {
-  margin: 0px 200px;
+  margin: 0px 500px;
 }
 #slider-inner h1{
   margin-top: 0px;
