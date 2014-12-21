@@ -57,18 +57,18 @@ header p {
   /* ---------------- responsive form ----------------- */
   @media (max-width: 767px) {
     #banner {
-      margin: 0px 0px !important;
+      margin: 0px -15px !important;
     }
     #banner-inner {
-      margin: 0px 0px !important;
+      margin: 0px 15px !important;
     }
   }
   @media (min-width: 768px) and (max-width: 991px) {
     #banner {
-      margin: 0px 0px !important;
+      margin: 0px -15px !important;
     }
     #banner-inner {
-      margin: 0px 0px !important;
+      margin: 0px 15px !important;
     }
   }
   /*@media (min-width: 992px) and (max-width: 1199px) {
