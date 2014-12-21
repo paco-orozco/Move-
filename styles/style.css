@@ -44,10 +44,10 @@ header p {
   -o-background-size: cover;
   background-size: cover;
   padding: 48px 0px;
-  margin: 0px -200px;
+  margin: 0px -500px;
 }
 #banner-legend {
-  margin: 0px 200px 0px 0px;
+  margin: 0px 500px 0px 0px;
   background-color: rgba(0,0,0,.50);
   padding: 24px 22px;
 }
